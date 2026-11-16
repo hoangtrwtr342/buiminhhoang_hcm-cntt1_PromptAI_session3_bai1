@@ -17,8 +17,6 @@
 ## Phần 2 : Trích xuất và chuẩn thông tin khách hàng 
 * Ví dụ 1
 
- ```yaml
-
 - Input email thô :
   "Xin chào bộ phận tuyển dụng, mình tên là Nguyễn Văn A, sdt ************, email: ******@gmail.com. Mình muốn ứng tuyển vị trí Backend Developer. Mình đã có 3 năm kinh nghiệm làm việc với python, django, postgresql và docker."
 
@@ -31,8 +29,6 @@
 |  Vị trí ứng tuyển  |  Backend  |
 |  Năm kinh nghiệm  |  3  |
 |  Kỹ năng chính |  Python,Html,Css,Java,script  |
-
-```
 
 * Ví dụ 2
 

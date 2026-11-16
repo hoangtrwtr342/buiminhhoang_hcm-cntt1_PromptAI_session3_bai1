@@ -16,7 +16,7 @@
 
 ## Phần 2 : Trích xuất và chuẩn thông tin khách hàng 
 * Ví dụ 1
-```plaintext
+
 - Input email thô :
   "Xin chào bộ phận tuyển dụng, mình tên là Nguyễn Văn A, sdt ************, email: ******@gmail.com. Mình muốn ứng tuyển vị trí Backend Developer. Mình đã có 3 năm kinh nghiệm làm việc với python, django, postgresql và docker."
 
@@ -28,7 +28,7 @@
 |  Vị trí ứng tuyển  |  Backend  |
 |  Năm kinh nghiệm  |  3  |
 |  Kỹ năng chính |  Python,Html,Css,Java,script  |
-```
+
 - Json thô
   
 ```Json
@@ -43,11 +43,38 @@
 }
 ```
 
-* Ví dụ 2
+* Ví dụ 2 :
 
-```plaintext
+- Input email thô:
+    "Dear HR, em là trần thị mai. Em gửi CV ứng tuyển vị trí Frontend Intern ạ. Email của em: maitran@yahoo.com. Kỹ năng của em gồm html, css, javascript, reactjs và javascript."
 
+- Output mong muốn:
+
+| Trường thông tin | Giá trị chuẩn hóa |
+| :--- | :--- |
+| Họ tên | Trần Thị Mai |
+| Số điện thoại | null |
+| Email | maitran@yahoo.com |
+| Vị trí ứng tuyển | Frontend Intern |
+| Năm kinh nghiệm | 0 |
+| Kỹ năng chính | HTML, CSS, JavaScript, ReactJS |
+
+```Json
+{
+  "name": "Trần Thị Mai",
+  "phone": null,
+  "email": "maitran@yahoo.com",
+  "position": "Frontend Intern",
+  "experience_years": 0,
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS"]
+}
 
 ```
+
+
+
+
+
+
 
 

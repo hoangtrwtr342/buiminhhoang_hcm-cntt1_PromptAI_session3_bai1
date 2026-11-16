@@ -21,7 +21,7 @@
   "Xin chào bộ phận tuyển dụng, mình tên là Nguyễn Văn A, sdt ************, email: ******@gmail.com. Mình muốn ứng tuyển vị trí Backend Developer. Mình đã có 3 năm kinh nghiệm làm việc với python, django, postgresql và docker."
 
 |   Trường giá trị   |    Giá trị chuẩn hóa   |
-|
+|                                             |
 |:---:|:---:|
 |  Họ và tên  |   Nguyễn Văn A  |
 |  Số điện thoại  |  0126*****0  |

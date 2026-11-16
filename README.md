@@ -29,6 +29,21 @@
 |  Năm kinh nghiệm  |  3  |
 |  Kỹ năng chính |  Python,Html,Css,Java,script  |
 
+- Json thô
+  
+```Json
+{
+    "name": "Nguyễn Văn A",
+  "phone": "+84***4567",
+  "email": "****@gmail.com",
+  "position": "Backend Developer",
+  "experience_years": 3,
+  "skills": ["Python", "Django", "PostgreSQL", "Docker"]
+
+}
+```
+
 * Ví dụ 2
+- 
 
 
